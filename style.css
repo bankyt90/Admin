@@ -10,11 +10,16 @@
     display: flex;
 }
 
-input[type=search] {
-    width: 47vw !important;
-    margin: 7.5px 7.5px 7.5px 50px;
-    padding: 8px;
-} 
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pt-2,
+.pb-2 {
+    padding: 5px 0;
+}
 
 .sidebar {
     flex: 1;
@@ -32,9 +37,9 @@ input[type=search] {
 
 .center ul li,
 .bottom ul li {
-    padding: 8px 0;
+    padding: 8px 2px;
     margin: 5px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     cursor: pointer;
 }
 
@@ -54,6 +59,41 @@ ul li a {
     border: 5px solid red;
 } */
 
+nav{
+    margin: 0 75px 0 0;
+}
+
+
+input[type=search] {
+    width: 47vw !important;
+    margin: 7.5px 0 6px 50px;
+    padding: 8px;
+} 
+.search {
+    position: relative;
+}
+.search-icon {
+    width: 20px;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+
+input::placeholder {
+    padding: 50px;
+}
+
+.notification-icon {
+    width: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.profile-img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
 
 .box-margin {
     margin: 10px 50px 0 50px;
@@ -62,7 +102,7 @@ ul li a {
 .box-margin ul {
     list-style-type: none;
     display: flex;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .box-margin ul li {
@@ -83,7 +123,7 @@ ul li a {
     height: 13.5rem;
     width: 27rem;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
 }
 
 h5 {
@@ -103,23 +143,23 @@ h4 {
 }
 
 .card-profile-img {
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
 }
 .card-profile-name {
     font-size: 0.9rem;
-    padding: 5px 0;
+    padding: 7px 0 0 10px;
 }
 .time-container {
     width: 70px;
-    height: 40px;
+    height: 30px;
     border: 1px solid #E1E3FE;
     background-color: #E1E3FE;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 30px 0;
+    margin: 20px 0 50px 0;
 }
 
 .hero-min-img {
@@ -130,35 +170,101 @@ h4 {
 }
 
 .small-light-blue-card {
-    background-color: lightblue;
+    background-color: #EEF0FF;
     height: 13.5rem;
     width: 12rem;
     margin-left: 1rem;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .globe-img {
-    width: 5rem;
+    width: 4rem;
     position: absolute;
-    right: -20px;
-    top: -40px;
+    right: -10px;
+    top: -10px;
 }
 
 .theme-chat-box {
     margin-left: 50px;
 }
+
 .box {
-    background-color: lightblue;
+    background-color: #EEF0FF;
     height: 6.5rem;
     width: 8rem;
     margin: 0 10px 10px 0;
     border-radius: 5px;
+    text-align: center;
+}
+.box img {
+    width: 50px;
+    padding: 10px 0;
+}
+.box  p {
+    padding-top: 7px;
+}
+.position-relative{
+    position: relative;
 }
 
-.position-relative{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    position: relative;
+.deep-blue-card {
+    background-color: #535BDD;
+    height: 13.5rem;
+    width: 27rem;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.profile-box-card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.deep-blue-time-container {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #303163;
+    background-color: #303163;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-deep-blue-card {
+    background-color: #5A61EA;
+    color: white;
+    width: 12rem;
+    border-radius: 5px;
+    height: 6.5rem;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 4px 15px;
+
+}
+
+.small-deep-blue-card p {
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+
+.cicle-profile-box {
+    margin-left: 50px;
+    width: 17rem;
+    
+}
+
+
+.circle-profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.blue-text {
+    color: #7677B6;
 }

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
@@ -17,18 +20,23 @@
         <div class="center">
             <ul>
                 <li>
+                    <i class="fi fi-ss-home"></i>
                     <a href="#">Home</a>
                 </li>
                 <li>
+                    <i class="fi fi-ss-graduation-cap"></i>
                     <a href="#">Courses</a>
                 </li>
                 <li>
+                    <i class="fi fi-rs-bulb"></i>
                     <a href="#">Training</a>
                 </li>
                 <li>
+                    <i class="fi fi-ss-chart-pie-alt"></i>
                     <a href="#">Statistics</a>
                 </li>
                 <li>
+                    <i class="fi fi-ss-settings"></i>
                     <a href="#">Settings</a>
                 </li>
             </ul>
@@ -36,7 +44,7 @@
         <hr>
         <div class="bottom">
             <div>
-                <img src="" alt="">
+                <i class="fi fi-sr-book"></i>
                 Homework
             </div>
             <ul>
@@ -58,13 +66,15 @@
 
     <!-- MAIN SECTION -->
     <div class="main">
-        <nav class="flex">
-            <div>
+        <nav class="justify-content-space-between">
+            <div class="search">
+                <img src="./images/search-interface-symbol.png" alt="search image icon" class="search-icon">
                 <input type="search" placeholder="Search">
             </div>
 
-            <div>
-                <img src="" alt="">
+            <div class="justify-content-space-between">
+                <img src="/images/notification.png" alt="notification icon" class="notification-icon">
+                <img src="/images/client-3.jpg" alt="Debra Cooper image" class="profile-img">
                 Debra Cooper
             </div>
         </nav>
@@ -133,7 +143,7 @@
                                         <img src="./images/globe.png" alt="Image of a globe" class="globe-img">
                                     </div>
                                 </div>
-                                <div class="flex">
+                                <div class="flex ">
                                     <img src="./images/client-2.jpg" alt="" class="card-profile-img">
                                     <p class="card-profile-name">Bessie Bell<br>Feb 4</p>
                                 </div>
@@ -141,17 +151,29 @@
 
                     </div>
     
-                    <div class=" theme-chat-box">
+                    <div class="theme-chat-box">
                         <h5>Theme Chat <span>24</span></h5>
                         <div class="flex">
                         <div>
-                            <div class="box">Education</div>
-                            <div class="box">University</div>
+                            <div class="box">
+                                <img src="./images/graduation.png" alt="graduation image">
+                                <p>Education</p>
+                            </div>
+                            <div class="box">
+                                <img src="./images/university.jpg" alt="university image">
+                                <p>University</p>
+                            </div>
                         </div>
                         
                         <div>
-                            <div class="box">Work</div>
-                            <div class="box">Technology</div>
+                            <div class="box">
+                                <img src="./images/work.png" alt="work image">
+                                <p>Work</p>
+                            </div>
+                            <div class="box">
+                                <img src="./images/phone.png" alt="smartphone image">
+                                <p>Technology</p>
+                            </div>
                         </div>
                         </div>
                     </div>
@@ -161,39 +183,92 @@
             <div>
                 <div class="box-margin">
                     <div class="flex">
-                        <div class="light-blue-card">
-                            We create effective
-                            texts for landing
-                            <div>
-                                <img src="" alt="">
-                                <div>
-                                    Randall Mccoy
-                                    CEO, California Tech
+                        <div>
+                            <h5>Video Lessons<span>124</span></h5>
+                            <div class="deep-blue-card">
+                                <h4>We create effective<br>texts for landing</h4>
+                                <div class="profile-box-card">
+                                    <div class="flex">
+                                        <img src="./images/client-2.jpg" alt="" class="card-profile-img">
+                                        <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                    </div>
+                                    <div class="deep-blue-time-container">
+                                        <img src="./images/clock.png" alt="clock image">
+                                        <span>5 min</span>
+                                    </div>
                                 </div>
-                            </div>
+                            </div>            
                         </div>
             
-                        <div class="small-light-blue-card">
-                            Design Trends
-                            in 2020
-            
-                            <div>
-                                <div>1 min</div>
-                                <div><img src="" alt=""></div>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <div>
-                                    Bessie Bell
-                                    Feb 11
+                        <div>
+                            <h5>Video Lessons<span>124</span></h5>
+                            <div class="small-deep-blue-card">
+                                <p>We make a website <br> business card. Training</p>
+                                <div class="flex">
+                                    <img src="./images/client-2.jpg" alt="" class="card-profile-img">
+                                    <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
                                 </div>
                             </div>
+                            <div class="small-deep-blue-card">
+                                <p>We make a website <br> business card. Training</p>
+                                <div class="flex">
+                                    <img src="./images/client-2.jpg" alt="" class="card-profile-img">
+                                    <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                </div>
+                            </div>   
                         </div>
+
+                        <div class="cicle-profile-box">
+                            <div class="justify-content-space-between">
+                                <h5>Top Teachers</h5>
+                                <img src="./images/right-arrow.png" alt="right arrow image">
+                            </div>
+
+                            <div>
+                                <div class="justify-content-space-between pt-2 pb-2">
+                                    <div class="flex">
+                                        <img src="./images/client-2.jpg" alt="" class="circle-profile-img">
+                                        <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                    </div>
+                                    <div class="blue-text">5.0</div>
+                                </div>
+
+                                <div class="justify-content-space-between pt-2 pb-2">
+                                    <div class="flex">
+                                        <img src="./images/client-2.jpg" alt="" class="circle-profile-img">
+                                        <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                    </div>
+                                    <div class="blue-text">5.0</div>
+                                </div>
+
+                                <div class="justify-content-space-between pt-2 pb-2">
+                                    <div class="flex">
+                                        <img src="./images/client-2.jpg" alt="" class="circle-profile-img">
+                                        <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                    </div>
+                                    <div class="blue-text">5.0</div>
+                                </div>
+
+                                <div class="justify-content-space-between pt-2 pb-2">
+                                    <div class="flex">
+                                        <img src="./images/client-2.jpg" alt="" class="circle-profile-img">
+                                        <p class="card-profile-name">Rosemary Steward<br>Feb 11</p>
+                                    </div>
+                                    <div class="blue-text">5.0</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
             </div>
+
         </div>
-
-
-
 
 
 
