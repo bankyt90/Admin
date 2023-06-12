@@ -299,7 +299,7 @@ h4 {
     display: none; /* Hide toggle button by default */
   }
 /* MEDIA QUERY */
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
     .container {
       max-width: 350px;
       }
@@ -323,14 +323,14 @@ h4 {
         flex-direction: column;
     }
     .light-blue-card {
-    height: 23rem;
+    height: 28rem;
     width: 100%;
     border-radius: 10px;
     padding: 15px;
 }
 
 h4 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .time-container {
@@ -354,31 +354,115 @@ h4 {
 }
 .small-light-blue-card {
     background-color: #EEF0FF;
-    height: 23rem;
-    width: 40%;
+    height: 25rem;
+    width: 50%;
     margin-left: 0;
 }
 .globe-img {
-    width: 10rem;
+    width: 13rem;
     position: absolute;
-    right: 0px;
-    top: -180px;
+    right: -20px;
+    top: -50px;
+}
+
+.flex-box {
+    position: relative;;
 }
 
 .theme-chat-box {
-    margin-left: 0px;
+    margin-left:50px;
     position: absolute;
-    top:600px;
-    right: -600px;
+    top: 480px;
+    left: 490px;
 }
+
+/* .theme-chat-box h5 {
+    position: absolute;
+    display: block;
+} */
 .box {
-    height: 12rem;
-    width: ;
-    margin: 0 10px 10px 0;
-    border-radius: 5px;
-    text-align: center;
+    height: 7rem;
+    padding: 100px;
 }
-  } */
+
+.box img {
+    position: relative;
+    top: -40px;
+    left: 0;
+}
+.box  p {
+    padding-top: 0px;
+}
+
+
+
+
+.deep-blue-card {
+    background-color: #535BDD;
+    height: 28rem;
+    width: 27rem;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.profile-box-card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.deep-blue-time-container {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #303163;
+    background-color: #303163;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SMALL DEEP BLUE CARD */
+.small-deep-blue-card {
+    background-color: #5A61EA;
+    color: white;
+    width: 12rem;
+    border-radius: 5px;
+    height: 6.5rem;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 4px 15px;
+
+}
+
+.small-deep-blue-card p {
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+
+.cicle-profile-box {
+    margin-left: 50px;
+    width: 17rem;
+    border: 5px solid red;
+    
+}
+.none {
+    color: white;
+}
+.circle-profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.blue-text {
+    color: #7677B6;
+}
+
+
+  }
 
 /* @media (max-width: 576px) {
     .container {
@@ -386,7 +470,7 @@ h4 {
       }
   } */
   
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .container {
       max-width: 720px;
     }
@@ -415,7 +499,7 @@ h4 {
         z-index: 2;
       }
     
-  } */
+  }
   
   /* @media (max-width: 992px) {
     .container {
